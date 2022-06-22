@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia&family=Commissioner&family=Grape+Nuts&family=Inter&family=Kumbh+Sans:wght@400;700&family=League+Spartan&family=Overpass&family=Poppins&family=Rubik&family=Space+Mono&family=Square+Peg&family=Ubuntu&display=swap');
 body {
     width: 100vw;
     height: 100vh;
@@ -10,6 +11,7 @@ body {
     position: relative;
     left: -8px;
     top: -8px;
+    font-family: rubik;
 }
 
 p {
@@ -35,9 +37,24 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
+    font-size: 0.75em;
 }
 
-.cover {
-    width: screen;
+.cover-con {
+    width: 100vw;
     height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 5em;
+}
+
+html, body {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
