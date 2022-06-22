@@ -15,5 +15,5 @@ function randomColor() {
 
 container.addEventListener('click', (e) => {
     e.target.style.backgroundColor = randomColor()
-    e.target.innerHTML = "<p>" + `${randomColor()}` + "</p>"
+    e.target.textContent = `${randomColor()}`
 })
